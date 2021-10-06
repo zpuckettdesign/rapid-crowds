@@ -26,7 +26,7 @@ function shuffleArray(arr: DataProps[]) {
 
 const VideoGroup: React.FC<VideoGroupProps> = ({ data }) => {
   if (!data) {
-    return <h1>Loading Twitch Clone...</h1>;
+    return <h1>Loading Rapid Crowds...</h1>;
   }
 
   const shuffledData = shuffleArray(data).slice(0, 4);

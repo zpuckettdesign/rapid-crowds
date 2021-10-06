@@ -1,5 +1,4 @@
 import { FaSearch } from 'react-icons/fa';
-import { CgCrown } from 'react-icons/cg';
 import { BsPerson } from 'react-icons/bs';
 
 import {
@@ -14,7 +13,7 @@ const Header: React.FC = () => {
   return (
     <Container>
       <LeftMenu>
-        <img src="/favicon.svg" alt="Twitch Clone" width="32" height="32" />
+        <img src="/favicon.svg" alt="Rapid Crowds" width="32" height="32" />
         <ul>
           <li>
             <a href="#">Browse</a>
@@ -32,7 +31,7 @@ const Header: React.FC = () => {
         </div>
       </MiddleMenu>
       <RightMenu>
-        <CgCrown size={24} />
+       
         <Button buttonType="secondary">Log In</Button>
         <Button buttonType="primary">Sign Up</Button>
         <BsPerson size={24} color="#fafafa" />

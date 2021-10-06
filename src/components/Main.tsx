@@ -28,7 +28,7 @@ const Main = () => {
     return (
       <Container>
         <div className="loading-container">
-          <h1>Twitch Clone</h1>
+          <h1>Rapid Crowds</h1>
           <div className="loading"></div>
         </div>
       </Container>
